@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Change href to use differnt theme -->
+  <link rel="stylesheet" href="Grey-Red Theme.css">
+  <title>Preview</title>
+  <style>
+    html {
+      background-color: #060606;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr)
+    }
+
+    .colour {
+      width: 1fr;
+      height: 250px;
+    }
+
+    .Dark {
+      background-color: var(--Dark);
+    }
+
+    .Primary {
+      background-color: var(--Primary);
+    }
+
+    .Medium {
+      background-color: var(--Medium);
+    }
+
+    .Light {
+      background-color: var(--Light);
+    }
+
+    .White {
+      background-color: var(--White);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="grid">
+    <div class="Dark colour"></div>
+    <div class="Primary colour"></div>
+    <div class="Medium colour"></div>
+    <div class="Light colour"></div>
+    <div class="White colour"></div>
+  </div>
+</body>
+
+</html>
